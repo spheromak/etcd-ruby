@@ -24,4 +24,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "coco"
+  spec.add_development_dependency "rubocop"
+  spec.add_development_dependency "guard"
+  spec.add_development_dependency "guard-rake"
+  spec.add_development_dependency "systemu"
 end
